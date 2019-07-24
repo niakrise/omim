@@ -19,6 +19,10 @@ final class SearchNoResultsViewController: MWMViewController {
     MWMKeyboard.add(self)
     onKeyboardAnimation()
   }
+  
+  override func mwm_refreshUI() {
+    view.mwm_refreshUI()
+  }
 }
 
 extension SearchNoResultsViewController: MWMKeyboardObserver {

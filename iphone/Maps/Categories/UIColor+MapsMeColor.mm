@@ -8,7 +8,7 @@ BOOL isNightMode = NO;
 NSDictionary<NSString *, UIColor *> * night = @{
   @"primaryDark":
       [UIColor colorWithRed:scaled(25.) green:scaled(30) blue:scaled(35.) alpha:alpha100],
-  @"primary": [UIColor colorWithRed:scaled(45.) green:scaled(50.) blue:scaled(55.) alpha:alpha100],
+  @"primary": [UIColor colorWithRed:scaled(29.) green:scaled(29.) blue:scaled(29.) alpha:alpha100],
   @"secondary": [UIColor colorWithRed:scaled(0x25) green:scaled(0x28) blue:scaled(0x2b) alpha:alpha100],
   // Light green color
   @"primaryLight":
@@ -19,7 +19,7 @@ NSDictionary<NSString *, UIColor *> * night = @{
       [UIColor colorWithRed:scaled(230.) green:scaled(70.) blue:scaled(60.) alpha:alpha100],
   // Background color && press color
   @"pressBackground":
-      [UIColor colorWithRed:scaled(50.) green:scaled(54.) blue:scaled(58.) alpha:alpha100],
+      [UIColor colorWithRed:scaled(0.) green:scaled(0.) blue:scaled(0.) alpha:alpha100],
   // Red color (use for status closed in place page)
   @"red": [UIColor colorWithRed:scaled(230.) green:scaled(70.) blue:scaled(60.) alpha:alpha100],
   @"errorPink":
@@ -37,11 +37,11 @@ NSDictionary<NSString *, UIColor *> * night = @{
       [UIColor colorWithRed:scaled(244.) green:scaled(67.) blue:scaled(67.) alpha:alpha100],
   @"buttonRedHighlighted":
       [UIColor colorWithRed:scaled(183.) green:scaled(28.) blue:scaled(28.) alpha:alpha100],
-  @"blackPrimaryText": [UIColor colorWithWhite:1. alpha:alpha90],
-  @"blackSecondaryText": [UIColor colorWithWhite:1. alpha:alpha70],
-  @"blackHintText": [UIColor colorWithWhite:1. alpha:alpha30],
-  @"blackDividers": [UIColor colorWithWhite:1. alpha:alpha12],
-  @"white": [UIColor colorWithRed:scaled(60.) green:scaled(64.) blue:scaled(68.) alpha:alpha100],
+  @"blackPrimaryText": [UIColor colorWithWhite:1. alpha:alpha100],
+  @"blackSecondaryText": [UIColor colorWithWhite:1. alpha:alpha60],
+  @"blackHintText": [UIColor colorWithRed:scaled(235.) green:scaled(235.) blue:scaled(245.) alpha:alpha30],
+  @"blackDividers": [UIColor colorWithRed:scaled(84.) green:scaled(84.) blue:scaled(88.) alpha:alpha65],
+  @"white": [UIColor colorWithRed:scaled(28.) green:scaled(28.) blue:scaled(30.) alpha:alpha100],
   @"whiteSecondaryText": [UIColor colorWithWhite:0. alpha:alpha70],
   @"whiteHintText": [UIColor colorWithWhite:0. alpha:alpha26],
   @"buttonDisabledBlueText":
