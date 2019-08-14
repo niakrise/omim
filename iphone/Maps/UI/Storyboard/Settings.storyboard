@@ -1925,6 +1925,9 @@
                             <constraint firstItem="Olo-Bm-ZYz" firstAttribute="trailing" secondItem="FTV-6u-1B0" secondAttribute="trailing" constant="20" id="bIm-Sb-N7W"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Olo-Bm-ZYz"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="backgroundColorName" value="pressBackground"/>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="localizedTitle" value="opt_out_mopub"/>

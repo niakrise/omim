@@ -177,7 +177,7 @@
                         <constraint firstItem="ahy-M3-meH" firstAttribute="top" secondItem="EF0-Bq-c6F" secondAttribute="top" constant="40" id="tdz-sP-cyI"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="backgroundColorName" value="white"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="backgroundColorName" value="pressBackground"/>
                     </userDefinedRuntimeAttributes>
                 </view>
             </subviews>
