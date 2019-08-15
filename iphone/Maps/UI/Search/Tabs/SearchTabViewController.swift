@@ -44,7 +44,7 @@ final class SearchTabViewController: TabViewController {
     
     tabView.backgroundColor = .pressBackground()
     tabView.barTintColor = .primary()
-    tabView.tintColor = .white()
+    tabView.tintColor = .whiteTab()
     tabView.headerTextAttributes = [.foregroundColor: UIColor.whitePrimaryText(),
                                     .font: UIFont.medium14()]
     tabView.delegate = self

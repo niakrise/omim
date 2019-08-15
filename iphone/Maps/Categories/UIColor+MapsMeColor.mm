@@ -52,7 +52,9 @@ NSDictionary<NSString *, UIColor *> * night = @{
   @"toastBackground": [UIColor colorWithWhite:0. alpha:alpha87],
   @"statusBarBackground": [UIColor colorWithWhite:0. alpha:alpha32],
   @"bannerBackground" : [UIColor colorWithRed:scaled(71) green:scaled(75) blue:scaled(79) alpha:alpha100],
-  @"border" : [UIColor colorWithWhite:1. alpha:alpha04]
+  @"border" : [UIColor colorWithWhite:1. alpha:alpha04],
+  @"whiteNavigation" : [UIColor colorWithRed:scaled(75.) green:scaled(185.) blue:scaled(230.) alpha:alpha100],
+  @"whiteTab" : [UIColor colorWithWhite:1. alpha:alpha70]
 };
 
 NSDictionary<NSString *, UIColor *> * day = @{
@@ -101,7 +103,9 @@ NSDictionary<NSString *, UIColor *> * day = @{
   @"toastBackground" : [UIColor colorWithWhite:1. alpha:alpha87],
   @"statusBarBackground" : [UIColor colorWithWhite:1. alpha:alpha36],
   @"bannerBackground" : [UIColor colorWithRed:scaled(249) green:scaled(251) blue:scaled(231) alpha:alpha100],
-  @"border" : [UIColor colorWithWhite:0. alpha:alpha04]
+  @"border" : [UIColor colorWithWhite:0. alpha:alpha04],
+  @"whiteNavigation" : [UIColor colorWithWhite:1. alpha:alpha87],
+  @"whiteTab" : [UIColor colorWithWhite:1. alpha:alpha100]
 };
 
 UIColor * color(SEL cmd)
@@ -280,6 +284,16 @@ UIColor * color(SEL cmd)
 + (UIColor *)whiteDividers
 {
   return [UIColor colorWithWhite:1. alpha:alpha12];
+}
+
++ (UIColor *)whiteNavigation
+{
+  return color(_cmd);
+}
+
++ (UIColor *)whiteTab
+{
+  return color(_cmd);
 }
 
 + (UIColor *)buttonDisabledBlueText

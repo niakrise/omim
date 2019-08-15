@@ -31,6 +31,8 @@
 + (UIColor *)whiteSecondaryText;
 + (UIColor *)whiteHintText;
 + (UIColor *)whiteDividers;
++ (UIColor *)whiteNavigation;
++ (UIColor *)whiteTab;
 + (UIColor *)buttonDisabledBlueText;
 + (UIColor *)buttonHighlightedBlueText;
 + (UIColor *)alertBackground;

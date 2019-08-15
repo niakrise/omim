@@ -26,7 +26,7 @@ final class BookmarksTabViewController: TabViewController {
     title = L("bookmarks_guides");
     tabView.backgroundColor = .pressBackground()
     tabView.barTintColor = .primary()
-    tabView.tintColor = .white()
+    tabView.tintColor = .whiteTab()
     tabView.headerTextAttributes = [.foregroundColor: UIColor.whitePrimaryText(),
                                     .font: UIFont.medium14()]
     tabView.selectedIndex = activeTab.rawValue
